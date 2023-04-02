@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: linear-gradient(to bottom, gray, black);
+    background: linear-gradient(to bottom, blue, rgb(2, 76, 100));
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -8,11 +8,11 @@ body {
     font-size: 35px;
     text-align: center;
     padding-top: 10px;
-    color: brown
+    color: white
 }
 
 .info-text {
-    color: lightseagreen;
+    color: white;
     text-align: center;
     font-size: 18px;
 }
@@ -27,8 +27,8 @@ body {
 
 .note {
     box-sizing: border-box;
-    color: lightgray;
-    background: rgba(0, 0, 0, .3);
+    color: lightblue;
+    background: rgba(255, 255, 255, .1);
     /*background: rgba(255, 255, 0, .1);*/
     padding: 15px;
     border-radius: 10px;
@@ -41,12 +41,12 @@ body {
 }
 
 .note::placeholder {
-    opacity: 30%;
+    opacity: 80%;
 }
 
 .note:hover,
 .note:focus {
-    box-shadow: 0 0 10px rgba(255, 255, 255, .3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
     transition: all 300ms ease;
 }
 
